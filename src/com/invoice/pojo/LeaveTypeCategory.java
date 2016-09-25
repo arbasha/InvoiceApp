@@ -6,7 +6,7 @@ package com.invoice.pojo;
  */
 public enum LeaveTypeCategory {
 
-	EMPTY("NA"),UnPlanned("UnPlanned"), CompOff("Comp Off"), Planned("Planned"), Holiday("L&T Holiday"), SplDay("Spl Day");
+	EMPTY("NA"),UnPlanned("UnPlanned"), CompOff("Comp Off"), Planned("Planned"), Holiday("Holiday"), SplDay("Spl Day");
 	private String text;
 
 	private LeaveTypeCategory(String text) {
