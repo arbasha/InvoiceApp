@@ -332,7 +332,7 @@ public class WeeklyTableModel extends AbstractTableModel {
 							+ " Backfilled by - ");
 					t.setLobHrs((float) 8);
 				} else if (t.getLeaveType().equals(LeaveTypeCategory.Holiday)) {
-					t.setRemarks("L&T Holiday on "
+					t.setRemarks("Holiday on "
 							+ df.formatddMMMyyyy(t.getWeekDate()));
 				}
 
