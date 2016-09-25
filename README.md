@@ -7,7 +7,7 @@ Stop dreading the end of a pay period and streamline your timesheets.
 Most companies reduce the time to prepare for payroll by 50%. All with no software to install or maintain.
 
 ## About this app
-InvoiceApp is a java software for small businesses and service start ups, who have least requirement for dedicated Timesheet management tool. 
+InvoiceApp is java software for small businesses and service start ups, who has least requirement for dedicated Timesheet management tool. 
 It includes modules for project management & collaboration, time tracking, expense management & invoicing
 
 ## Technologies used
@@ -18,13 +18,17 @@ It includes modules for project management & collaboration, time tracking, expen
 > - Apache POI
 > - VBS to send auto mails using outlook.
 
+## Stats
+> - Total no of java classes: 110
+> - Total lines of code: 12,171
+
 ## Scrap this project, you will learn
 > - Complete understanding on Java Swing components
 > - How to build a large swing application using MVC pattern
-> - How component desigining done with GridBag layout
+> - How component designing done with GridBag layout
 > - Hibernate ORM - CRUD operations
 > - Use Hibernate ORM to read/write Microsoft Access
-> - How to connect with secure Mirosoft Access using Jackcess
+> - How to connect with secure Microsoft Access using Jackcess
 > - How to call VB script from Java application
 > - How to work with outlook in background using OLE 
 > - Building Excel sheet using Apache POI 
