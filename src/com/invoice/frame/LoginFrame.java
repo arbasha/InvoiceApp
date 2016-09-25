@@ -71,7 +71,7 @@ public class LoginFrame extends JFrame {
 
 		// Adding Marquee
 		titlemqlp = new Marquee(logintTitleLabel,
-				"Invocing Tool - Login Screen", 32);
+				"Invoicing Tool - Login Screen", 32);
 		titlemqlp.start();
 
 		// Title Label + Marquee
