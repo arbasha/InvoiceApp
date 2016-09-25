@@ -14,7 +14,7 @@ It includes modules for project management & collaboration, time tracking, expen
 > - Java 1.7
 > - Java Swing
 > - Hibernate for (ORM)
-> - MS Access DB (Thanks to UCanAccess and HxttAccessDialect, Java developers can use Hibernate ORM to read/write Microsoft Access databases.
+> - MS Access DB (Thanks to UCanAccess and HxttAccessDialect, Java developers can use Hibernate ORM to read/write Microsoft Access databases)
 > - Apache POI
 > - VBS to send auto mails using outlook.
 
@@ -35,7 +35,9 @@ It includes modules for project management & collaboration, time tracking, expen
 
 ## Usage
 Please read the usage_guide.doc file in docs folder for setup and how to do stuff in application
-### Get Started by importing this as a java project in an IDE and export it as "runnable jar" file.
+## config.properties
+Please have a look @ config.properties file for all configuration details with respect to application workingness
+#### Get Started by importing this as a java project in Eclipse IDE and then export it as "runnable jar" file.
 Double Click on the exported jar, you will see something like:
 
 ![ScreenShot](https://cloud.githubusercontent.com/assets/22431218/18817800/90bb8c2a-8387-11e6-90f8-3f1aeb300f78.PNG)
