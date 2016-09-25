@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+	<session-factory>
+		<property name="hibernate.dialect">com.hxtt.support.hibernate.HxttAccessDialect</property>
+		<property name="hibernate.connection.driver_class">net.ucanaccess.jdbc.UcanaccessDriver</property>
+		<property name="hibernate.connection.url">${hibernate.connection.url}</property>
+		<property name="connection.username"></property>
+		<property name="connection.password">${connection.password}</property>
+		<property name="connection.pool_size">1</property>
+		<property name="current_session_context_class">thread</property>
+		<property name="cache.provider_class">org.hibernate.cache.NoCacheProvider</property>
+		<property name="show_sql">true</property>
+		<property name="hbm2ddl.auto">update</property>
+		<mapping class="com.invoice.entity.Registration" />
+		<mapping class="com.invoice.entity.PmNames" />
+		<mapping class="com.invoice.entity.Approver" />
+		<mapping class="com.invoice.entity.Timesheet" />
+		<mapping class="com.invoice.entity.TimesheetUser" />
+		<mapping class="com.invoice.entity.WeeksTotal" />
+		<mapping class="com.invoice.entity.ProjectNames" />
+
+	</session-factory>
+</hibernate-configuration>
