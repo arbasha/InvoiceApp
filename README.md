@@ -32,4 +32,6 @@ It includes modules for project management & collaboration, time tracking, expen
 ## Usage
 Please read the usage_guide.doc file in docs folder for setup and how to do stuff in application
 ### Get Started by importing this as a java project in an IDE and export it as "runnable jar" file.
-Double Click on the exported jar, you will see something like 
+Double Click on the exported jar, you will see something like:
+
+![ScreenShot](https://cloud.githubusercontent.com/assets/22431218/18817800/90bb8c2a-8387-11e6-90f8-3f1aeb300f78.PNG)
